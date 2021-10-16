@@ -1,0 +1,46 @@
+Exercice 1
+Réponse:
+Affiche 231
+Affiche 462
+
+Exercice 2
+Réponse:
+DEBUT
+    Var nombre, resultat : entier;
+    Ecrire ("Donnez moi un nombre:")
+    Lire nombre;
+    resultat=nombre*nombre;
+    Ecrire ("votre nombre au carré est: "resultat)
+FIN
+
+Exercice 3
+Réponse :
+DEBUT  
+    Var prix_ht, nombre_art,tTVA,prix_ttc: entier;
+    Var art : caractere
+    Ecrire " Donne moi l'article "
+    Lire art
+    Ecrire "Saisir le prix HT"
+    Lire prix_ht
+    Ecrire "Saisir le nombre d'article :"
+    Lire nombre_art
+    Ecrire "Saisir le taux de TVA:"
+    Lire tTVA
+    prix_ttc = (prix_ht*nombre)*(1+tTVA);
+    Ecrire "Pour l'article :", art, " le prix TTC est de :", prix_ttc
+FIN
+
+Exercice 4
+Réponse:
+DEBUT
+    Var a,b,c,d,e : string;
+    a <- "belle marquise";
+    b <- "vos beaux yeux";
+    c <- "mourir";
+    d <- "d'amour";
+    e <- "me font";
+    Ecrire(a&" "b&" "e&" "c&" "d&" ")
+    Ecrire(d&" "c&" "e&" "a&" "b&" ")
+    Ecrire(b&" "d&" "e&" "a&" "c&" ")
+    Ecrire(e&" "b&" "c&" "a&" "d&" ")
+FIN

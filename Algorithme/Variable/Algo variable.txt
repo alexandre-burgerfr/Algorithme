@@ -1,0 +1,50 @@
+Exercice 1
+Réponse : 
+Variable A > 3
+Variable B > 4
+
+Exercice 2
+Réponse : 
+Variable A : 2
+Variable B : 3
+Variable C : 1
+
+Exercice 3
+Réponse :
+Variable A : 6
+Variable B : 2
+
+Exercice 4
+Réponse : 
+Variable A : 13
+Variable B : 13
+Variable C : 13
+
+Exercice 5
+Réponse : 
+Variable A : aucune valeur
+Variable B : 2
+Non, l'autre valeur sera écrasé
+
+Exercice 6
+Réponse : 
+Var A,B,C : entier;
+C<-A;
+A<-B;
+B<-C;
+
+Exercice 7
+Réponse : 
+Var A,B,C,D : entier;
+D<-C;
+C<-B;
+B<-A;
+A<-D;
+
+Exercice 8
+Réponse:
+Erreur car chiffre or on a défini une variable en caractère
+
+Exercice 9 
+Réponse:
+42312

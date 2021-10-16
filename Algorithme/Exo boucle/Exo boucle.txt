@@ -1,0 +1,92 @@
+Exercice 1
+Réponse:
+Var nombre : entier
+DEBUT
+    Ecrire ("Donnez un nombre compris entre 1 et 3 : " )
+    While (nombre>1) OU (nombre <3){
+        lire nombre
+        if (nombre<1) OU (nombre>3){
+            Ecrire "Entre 1 et 3"
+        }
+    }
+FIN
+
+Exercice 2
+Réponse:
+Var nombre : entier
+DEBUT
+    Ecrire ("Donnez un nombre compris entre 10 et 20 : " )
+    While (nombre<10) OU (nombre >20){
+        lire nombre
+        if nombre<10{
+            Ecrire ("Plus grand !")   
+                sinon si nombre>20{
+                    "Ecrire ("Plus petit")
+                }
+        }
+    }
+FIN
+
+Exercice 3
+Réponse:
+Var nombre : entier
+Var i : entier
+DEBUT
+    i=0;
+    Ecrire ("Donnez un nombre : ")
+    Lire nombre
+    for (i=1;i<10;i++){
+        nombre=nombre+i;
+        Ecrire nombre
+    }
+FIN
+
+Exercice 4
+Réponse:
+Var nombre,i : entier
+DEBUT
+    Ecrire ("Donnez un nombre : ")
+    Lire nombre
+    Ecrire ("Table de" nombre " : ")
+    for (i=1;i<=10;i++){
+        Ecrire (nombre "x" i "=" nombre*i)
+    }
+FIN
+
+Exercice 5
+Réponse:
+Var nombre,result,i : entier
+DEBUT
+    result=0;
+    Ecrire ("Donnez un nombre : ")
+    Lire nombre
+    for (i=1;i<=nombre;i++){
+        result=result+i;
+    }
+    Ecrire (result)
+FIN
+
+Exercice 6
+Réponse:
+Var nombre,result,i : entier
+result=1;
+DEBUT
+    Ecrire ("Donnez un nombre : ")
+    Lire nombre
+    for (i=1;i<=nombre;i++){
+        result=result*i;
+    }
+    Ecrire (result)
+FIN
+
+Exercice 7
+Réponse:
+Var nombre,compar: entier (1 à 20)
+Var i : entier
+DEBUT
+    for(i=1;i<=20;i++){
+        Ecrire ("Entre le nombre numéro "i )
+        Lire nombre(i)
+        compar=nombre(i)
+        Si compar plus grand ou egal au prochain nombre = on garde
+    }

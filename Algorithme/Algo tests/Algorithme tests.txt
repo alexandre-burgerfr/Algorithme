@@ -1,0 +1,87 @@
+Exercice 1
+Réponse:
+Var nombre : entier;
+DEBUT
+    Lire("Donne un nombre:";nombre)
+    if(nombre>0)
+        Ecrire("Le nombre est positif";)
+        Else 
+            Ecrire("Le nombre est négatif";)
+    Fin if
+FIN
+
+Exercice 2 
+Réponse:
+Var nombre1,nombre2 : entier
+DEBUT
+    Lire("Donne un nombre 1:";nombre1)
+    Lire("Donne un nombre 2:";nombre2)
+    if((nombre1>0 ET nombre 2>0) OR (nombre1<0 ET nombre2<0))
+        Ecrire("Le produit est positif";)
+        Else
+            Ecrire("Le produit est négatif";)
+    Fin if
+FIN
+
+Exercice 3
+Réponse:
+Var nom1,nom2,nom3 : string;
+DEBUT
+    Lire("Donne un nom 1:";nom1)
+    Lire("Donne un nom 2:";nom2)
+    Lire("Donne un nom 3:";nom3)
+    if((nom1<nom2) ET  (nom2<nom3))
+        Ecrire " Tes mots sont dans l'ordre"
+        Else
+            Ecrire " Tes mots sont dans le désordre"
+    Fin if
+FIN
+
+Exercice 4
+Réponse:
+Var nombre : entier;
+DEBUT
+    Ecrire "Donne moi un nombre: "
+    Lire nombre
+    if(nombre>=1)
+        Ecrire " Ton nombre est positif"
+        Else if (nombre=0)
+            Ecrire " Ton nombre est 0"
+    Else Ecrire " Ton nombre est négatif "
+    Fin if
+FIN
+
+Exercice 5
+Réponse:
+Var nb1,nb2 : entier;
+DEBUT
+    Ecrire "Donne moi un nombre 1: "
+    Lire nb1
+    Ecrire "Donne moi un nombre 2: "
+    Lire nb2
+    if(((nb1>0 ET nb2>0) OR (nb1<0 ET nb2<0)))
+        Ecrire " Ton produit est positif"
+        Else if (nb1=0 OU nb2=0)
+            Ecrire " Ton produit vaut 0"
+    Else Ecrire " Ton produit est négatif "
+    Fin if
+FIN
+
+
+Exercice 6
+Réponse:
+Var age : entier
+DEBUT
+    Ecrire " Donne moi un age : "
+    Lire age
+    if(age<6)
+        Ecrire"Vous avez moins de 6 ans"
+        Else if (age<8)
+            Ecrire " Vous êtes un poussin"
+            Else if (age<10)
+                Ecrire " Vous êtes un pupille"
+                Else if (age<12)
+                    Ecrire "Vous êtes un minime"
+    Else Ecrire " Vous êtes un cadet"
+    Fin if
+FIN
